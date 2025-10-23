@@ -57,7 +57,7 @@ package NewAC_XE6;
 {$IMAGEBASE $400000}
 {$DEFINE RELEASE}
 {$ENDIF IMPLICITBUILDING}
-{$DESCRIPTION 'New Audio Components v 2.6'}
+{$DESCRIPTION 'New Audio Components v2.6'}
 {$IMPLICITBUILD OFF}
 
 requires

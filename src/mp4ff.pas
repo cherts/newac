@@ -1,5 +1,5 @@
 (*
-  This file is a part of New Audio Components package v 2.6
+  This file is a part of New Audio Components package v2.6
   Copyright (c) 2002-2010, Andrei Borovsky. All rights reserved.
   See the LICENSE file for more details.
   You can contact me at anb@symmetrica.net
@@ -14,7 +14,8 @@ uses
   Windows,
   SysUtils,
   ACS_Classes,
-  neaac;
+
+  neaac;
 
 const
   Libmp4ffPath = 'mp4ff.dll';
