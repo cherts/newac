@@ -33,7 +33,7 @@ Summary
   - **Project Homepage**	You can find the official homepage of NewAC at https://github.com/cherts/NewAC
   - **Project Discussion**	Discussion and support can be found on the Github at https://github.com/cherts/newac/discussions/landing
   - **Project Source**	The source code for NewAC is now hosted on Github at https://github.com/cherts/NewAC
-- **Version History**	Short list of new features for each NewAC version.
+- **Version History**	See [CHANGELOG.md](CHANGELOG.md).
 - **A Note to the Reader**	It is only fair to warn you that this documentation is not complete.
 - **Introduction to NewAC Programming**
   - **Basic Operation**	The New Audio Components package is a set of components designed to handle different sound processing tasks, such as reading and storing data in different audio formats, working with sound hardware, audio streams mixing and so on.
@@ -58,9 +58,8 @@ On the Web
 
 Summary
 --------
-Project Homepage	You can find the official homepage of NewAC at https://github.com/cherts/NewAC
-Project Discussion	Discussion and support can be found on the Github https://github.com/cherts/newac/discussions/landing
-Project Source	The source code for NewAC is now hosted on Github https://github.com/cherts/NewAC
+
+An introduction to NewAC, Delphi components for manipulating audio data.
 
 Project Homepage
 --------------
@@ -68,183 +67,11 @@ You can find the official homepage of NewAC at https://github.com/cherts/NewAC
 
 Project Discussion
 ---------------
-Discussion and support can be found on the Github https://github.com/cherts/newac/discussions/landing
+Discussion and support can be found on the Github at https://github.com/cherts/newac/discussions/landing
 
 Project Source
 -----------------
-The source code for NewAC is now hosted on Github https://github.com/cherts/NewAC
-
-Version History
-===============
-
-Short list of new features for each NewAC version.
-
-**Version: NewAC 2.6.2**
-
-- RAD Studio XE6/XE7/XE8/Seattle/Alexandria/Berlin/Tokyo/Rio/Sydney/Athens/Florence support.
-
-**Version: NewAC 2.6.1**
-
-- RAD Studio XE3/XE4/XE5 support.
-- Some minor fixes.
-
-**Version: NewAC 2.6**
-
-- The TDSAudioOut - new and better sound output component is added.
-- The TAudioCache component is added.
-- The TMP4In component for AAC playback is added.
-- OnSyncDone event (like OnDone, but fired at ones) is added.
-- Windows 7 compatibility is attested.
-- Some minor fixes.
-
-**Version: NewAC 2.5**
-
-- The TFastGainIndicaor component is added.
-- Performance farther improved.
-
-**Version: NewAC 2.4**
-
-- The Audio Output Latency property is added.
-- Common audio tags properties are added.
-- TSpectrumIndicator component is added.
-- TTagsEditor component is added.
-- TGainControl component is added.
-- TMpgIn component is added.
-
-**Version: NewAC 2.3**
-
-- TGainIndicator component is added.
-- Some minor bug fixes and improvements.
-
-**Version: NewAC 2.2.2**
-
-- TCDIn CD-ripping component is updated.  Jitter correction and higher speed on new drives.
-- Some minor bug fixes and improvements.
-
-**Version: NewAC 2.2.1**
-
-- Many bug fixes and improvements.
-- Input prefetch mechanism is implemented to allow low latencies when playing back via DirectSound.
-
-**Version: NewAC 2.2**
-
-- AC-3 decoder added.
-- DTS decoder is greatly improved.
-- TDownMixer component is added (converts 5.1 to stereo lets you to control the parameters).
-- TWVIn and TWVOut components are significantly improved.
-
-**Version: NewAC 2.1**
-
-- DTS decoder added.
-- TAudioPlaylist component which allows gapless playback added.
-- TCueSplitter component added (splits audiotracks automatically using cue-sheets).
-- ASIO output now supports 5.1 channels.
-
-**Version: NewAC 2.0**
-
-- Low-latency ASIO drivers support added.
-- Real-time audio components (TAudioSynchronizer, TAudioHiResTimer) added.
-- Some minor improvements.
-
-**Version: NewAC 1.9**
-
-- Experimental delphi-based compresor added.
-- Delphi 2009 compatibility added.
-- TCDDBInfo component added
-- Small bugs fixed.
-
-**Version: NewAC 1.8**
-
-- TFastResampler component (fully Delphi-based) for fast resampling.
-- TConvolver and TDifferenceEquation components for exploring DSP operations.
-- TChebyshevFilter component implementing Chebyshev filters.
-- TFrequencyAnalysis component thst performs DFT on audio data.
-
-**Version: NewAC 1.7.2**
-
-- New TRealTimeMixer component.
-- External DLLs are now loaded on demand
-- Updated LAME encoder
-- Some bugs are fixed.
-
-**Version: NewAC 1.7.1**
-
-- AVI files reader added (TAVIIn component).
-- Some bugs are fixed.
-
-**Version: NewAC 1.7**
-
-- New Audio processing components: TDitherer, TNormalizer, TMSResampler, TVoiceFilter.
-- Improved 32-bit and multichannel sound support.
-- Two pass WMA encoder added.
-
-**Version: NewAC 1.6**
-
-- Musepack support (decoding/encoding).
-- TAK support (decoding).
-- Multichannel audio support.
-- Audio broadcasting support.
-
-**Version: NewAC 1.5**
-
-- TWMStreamedIn for reading live MP3 and WMA network streams.
-- WMA lossless encoding support.
-- TWaveTap and TWMATap components.
-- Many smaller fixes and improvements.
-
-**Version: NewAC 1.4**
-
-- FLAC tags support (reading/writing).
-- TTA lossless audio format support.
-- New converter components: TACMConverter and TAudioPass.
-- Numerous smaller fixes and improvements.
-
-**Version: NewAC 1.3.2**
-
-- Improved WMA encoder
-- Object Model has changed: SuspendWhenIdle property and WaitForStop method are now obsolete.
-
-**Version: NewAC v1.3.1**
-
-- MP3 decoding is now done with Windows decoder (additional DLL (mpadec.dll) no longer needed)
-
-**Version: NewAC v1.3**
-
-- Windows Media files input support (TWMIn component), Windows Media Audio (wma) files output support (TWMAOut component).
-- Event handling improved
-
-**Version: NewAC v1.2**
-
-- WavPack format support (TWVIn, TWVOut components).
-- 24-bit sound support.
-- Unicode file names support (via the WideFileName property).
-- Large (larger than 2 GB) files support.
-
-**Version: NewAC v1.1**
-
-- Base class interfaces is changed to make data flow more efficient.
-- FLAC and Monkey’s Audio codecs are updated.
-- New TAudioConverter and TResampler components are added.
-- New MP3 decoder support is added to make MP3 input seekable.
-
-**Version: NewAC v1.0.1**
-
-- Ogg Vorbis bugs are fixed.
-- DirectSound API is implemented in Delphi, so there is no more need in dswrapper DLL.
-- Base classes are renamed from TACS* to TAu*.
-- Some minor bugs are fixed.
-
-**Version: NewAC v1.0**
-
-- Some bugs are fixed.
-- TMP3In component is added for mp3 playback.
-- TCDPlayer can now work with several drives.
-
-**Version: ACS v2.3**
-
-- Changes in the object model: Event and thread handling improved.
-- DirectX input/output has been added (TDXAudiIn and TDXAudiOut components).
-- TMP3Out component has been improved.
+The source code for NewAC is now hosted on Github at https://github.com/cherts/NewAC
 
 A Note to the Reader
 ====================
@@ -431,8 +258,6 @@ Third Party Libraries
 Some of NewAC components require certain shared libraries, which are not included in the package but are publicly available and may be found on many sites both in source and binary forms.  Many NewAC components do not require any additional libraries at all. hese are: TDXIn, TDXOut, TInputList, TMemoryIn,TWaveIn, TWaveOut, TWMIn, TWMOut, TWMStreamedIn, TWMStreamedOut, TSreamIn, TStreamOut, TWMADualPassOut, TAVIIn, TAudioMixer, TRealTimeMixer, TAudioConverter, TSincFilter, TStereoBalance, TACMConverter, TNormalizer, TMSResampler, TVoiceFilter.  Important note: In previous versions required DLLs were loaded at application startup.  If some DLL was missing the application could not proceed.  Since NewAC 1.7.2 DLLs are loaded on demand.  For example file-reading component loads a required DLL only when it opens a file for playback.  Now NewAC applications may work even if not all the required DLLs are present.  If you try to put to an active audio chain a component that cannot find a required DLL, it will indicate that it cannot proceed.  File input components set Valid property to False and file output components raise OnThreadException event.
 
 For those components that require third-party shared libraries you can download these libraries in binary form from the NewAC Site.  If you want to compile yourself, below are the links to the libraries’ sources on the Net.
-
-Libraries, require by some NewAC components in a precompiled binary form are available at http://symmetrica.net/uploads/newac/windlls.zip and http://symmetrica.net/uploads/newac/windlls-2.zip
 
 It is important to note that since all libraries required by NewAC components are loaded dynamically at run-time, you can use NewAC as a whole without these libraries.  Of course, those components requiring certain library will only work if the library is found.
 
