@@ -1,3 +1,6 @@
+#ifndef DIRECTSOUND_VERSION
+#define DIRECTSOUND_VERSION 0x0800
+#endif
 /*==========================================================================;
  *
  *
